@@ -2,20 +2,95 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body{
+  background-color: greenyellow;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.box {
+  
+  text-align: center;
+  padding-top: 30px;
+  border: 2px solid rgb(215, 212, 212);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%; 
+  background-color: black;
+  color: white;
+
+
+
+}
+.box > h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+h1 {
+  color:rgb(217, 217, 217);
+  text-shadow: 0 0 20px #ff9900; 
+  text-shadow: 0 0 30px #ff6600; 
+  text-shadow: 0 0 40px #ff3300; 
+  text-shadow: 0 0 50px #ff0000; 
+  font-size: 40px;
 }
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+ 
+  
+}
+ 
+  
+
+
+.image {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left:30px ;
+}
+
+.profile-image{
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.education > h3 {
+  font-size: 30px;
+ 
+}
+.education {
+  padding-bottom: 20px;
+  
+}
+.skills > h3 {
+  font-size: 30px;
+ 
+
+}
+
+
+.experiance > h3 {
+  font-size: 30px;
+ 
+ 
+}
+
+.projects > h3{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.project > h4 {
+  font-size: 25px;
+}
+
+
